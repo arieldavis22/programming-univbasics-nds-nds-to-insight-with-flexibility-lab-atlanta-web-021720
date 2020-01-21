@@ -102,7 +102,7 @@ movie_index = 0
 movie_hash = {}
 #binding.pry
 while movie_index < source.length do
-  movie_hash[:director_name] = source[movie_index][:movies]
+  movie_hash[:director_name] = source[movie_index][:name]
   movie_arr << movie_hash
   movie_index += 1
 end
