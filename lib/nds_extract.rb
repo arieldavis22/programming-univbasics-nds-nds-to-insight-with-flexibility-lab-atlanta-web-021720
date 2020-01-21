@@ -107,7 +107,7 @@ while movie_index < source.length do
   movie_index += 1
 end
 
-arr << movie_arr
+flatten_a_o_a(arr) << movie_arr
 # movie_inner = 0
 # while movie_inner < movie_arr.length do
 #   movie_arr[movie_inner]
