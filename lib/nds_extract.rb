@@ -103,7 +103,7 @@ movie_hash = {}
 #binding.pry
 while movie_index < source.length do
   movie_hash[:director_name] = source[movie_index][:name]
-  flatten_a_o_a(movie_arr) << movie_hash
+  movie_arr << movie_hash
   movie_index += 1
 end
 
