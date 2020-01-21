@@ -100,7 +100,7 @@ movie_arr = []
 arr = []
 movie_index = 0
 movie_hash = {}
-binding.pry
+#binding.pry
 while movie_index < source.length do
   movie_hash[:director_name] = source[movie_index][:name]
   movie_arr << movie_hash
